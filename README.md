@@ -16,30 +16,30 @@
 
 ---
 
-## 🌟 Features
+## Features
 
-### 📦 Multi-Platform Package Manager Support
+### Multi-Platform Package Manager Support
 - **Windows**: WinGet, Chocolatey, Scoop
 - **macOS**: Homebrew
 - **Linux**: Snap, Flatpak, APT/dpkg
 - **Cross-Platform**: pip (Python), npm (Node.js)
 
-### 📊 Multiple Export Formats
+### Multiple Export Formats
 - **Markdown** - Beautiful human-readable reports
 - **JSON** - Machine-readable for automation
 - **YAML** - Configuration-friendly format
 - **CSV** - Import into spreadsheets
 - **HTML** - Interactive web-based reports with search
 
-### 🔍 Advanced Features
-- ✅ **Version Comparison** - Compare system snapshots and track changes
-- 🔄 **Update Detection** - Find outdated packages across all package managers
-- 👁️ **Watch Mode** - Continuously monitor for system changes
-- ⚙️ **Configuration Files** - Customize scanning behavior
-- 🔌 **Plugin System** - Extend with custom scanners
-- 🎨 **Rich CLI** - Beautiful terminal output with colors and tables
+### Advanced Features
+- **Version Comparison** - Compare system snapshots and track changes
+- **Update Detection** - Find outdated packages across all package managers
+- **Watch Mode** - Continuously monitor for system changes
+- **Configuration Files** - Customize scanning behavior
+- **Plugin System** - Extend with custom scanners
+- **Rich CLI** - Beautiful terminal output with colors and tables
 
-### 🚀 Use Cases
+### Use Cases
 - **DevOps**: Document development environment setups
 - **System Administration**: Audit software installations
 - **Team Onboarding**: Share standardized environment configurations
@@ -48,7 +48,7 @@
 
 ---
 
-## 📥 Installation
+## Installation
 
 ### Via pip (Recommended)
 ```bash
@@ -69,7 +69,7 @@ pip install -e ".[dev]"
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Basic Scan
 Generate a system inventory report:
@@ -124,7 +124,7 @@ sysmap summary
 
 ---
 
-## 📖 Usage Examples
+## Usage Examples
 
 ### Configuration File
 Create a custom configuration:
@@ -208,7 +208,7 @@ jobs:
 
 ---
 
-## 🎨 Example Output
+## Example Output
 
 ### Terminal Output
 ```
@@ -235,7 +235,7 @@ Interactive, searchable web page with:
 
 ---
 
-## 🔧 CLI Reference
+## CLI Reference
 
 ### Commands
 
@@ -266,9 +266,9 @@ Interactive, searchable web page with:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
-```
+```bash
 sysmap/
 ├── core/
 │   ├── scanner.py      # Package manager scanners
@@ -287,7 +287,7 @@ sysmap/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We love contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
 - Reporting bugs
@@ -305,19 +305,6 @@ We love contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details
 6. Commit (`git commit -m 'feat: add amazing feature'`)
 7. Push (`git push origin feature/amazing-feature`)
 8. Open a Pull Request
-
----
-
-## 📚 Documentation
-
-Full documentation is available at [https://sysmap.readthedocs.io](https://sysmap.readthedocs.io)
-
-- [User Guide](docs/user-guide.md)
-- [Configuration](docs/configuration.md)
-- [Plugin Development](docs/plugins.md)
-- [API Reference](docs/api.md)
-
----
 
 ## 🛠️ Development
 
@@ -355,26 +342,78 @@ mypy src/            # Type checking
 
 ---
 
+## 🎯 Real-World Use Cases
+
+### DevOps Teams
+```bash
+# Document your development environment
+sysmap scan --format json --output team-environment.json
+
+# Share with the team via Git
+git add team-environment.json
+git commit -m "docs: update team environment specs"
+git push
+```
+
+### System Administrators
+```bash
+# Weekly audit of all servers
+sysmap scan --check-updates --format html --output audit-$(date +%Y%m%d).html
+
+# Compare with last week's baseline
+sysmap diff audit-baseline.json
+```
+
+### CI/CD Pipelines
+```yaml
+# .github/workflows/env-check.yml
+- name: Document Environment
+  run: |
+    sysmap scan --format json --output build-env.json
+
+- name: Upload Artifact
+  uses: actions/upload-artifact@v4
+  with:
+    name: build-environment
+    path: build-env.json
+```
+
+### Compliance & Security
+```bash
+# Generate compliance report
+sysmap scan --format csv --output compliance-report.csv
+
+# Check for outdated packages (security risk)
+sysmap updates --format json > security-audit.json
+```
+
+---
+
+## ❓ FAQ
+
+### Q: Does SysMap require admin/root privileges?
+**A:** No, SysMap runs with user permissions. Some package managers may require privileges for update checks.
+
+### Q: Can I use SysMap on Windows/macOS/Linux?
+**A:** Yes! SysMap is cross-platform and automatically detects available package managers.
+
+### Q: How do I add support for a new package manager?
+**A:** See [CONTRIBUTING.md](CONTRIBUTING.md) for instructions on adding new scanners.
+
+### Q: Is my data sent anywhere?
+**A:** No, all scanning happens locally. SysMap doesn't phone home or collect telemetry.
+
+### Q: Can I use this in commercial projects?
+**A:** Yes! SysMap is MIT licensed - use it freely in commercial and personal projects.
+
+### Q: How often should I run scans?
+**A:** For personal use: weekly. For production servers: daily or use watch mode.
+
+---
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- Inspired by the need for better system documentation in DevOps workflows
-- Built with [Click](https://click.palletsprojects.com/) and [Rich](https://rich.readthedocs.io/)
-- Community contributors and testers
-
----
-
-## 🔗 Links
-
-- **Documentation**: [https://sysmap.readthedocs.io](https://sysmap.readthedocs.io)
-- **PyPI**: [https://pypi.org/project/sysmap/](https://pypi.org/project/sysmap/)
-- **Issues**: [https://github.com/lorenzouriel/sysmap/issues](https://github.com/lorenzouriel/sysmap/issues)
-- **Changelog**: [CHANGELOG.md](CHANGELOG.md)
 
 ---
 

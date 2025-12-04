@@ -1,0 +1,560 @@
+{
+  "timestamp": "2025-12-04T20:12:16.248680",
+  "platform": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26100",
+    "machine": "AMD64",
+    "node": "EARTH"
+  },
+  "package_managers": {
+    "winget": {
+      "count": 94,
+      "packages": [
+        {
+          "name": "Name",
+          "id": "Id",
+          "version": "Version"
+        },
+        {
+          "name": "Docker Desktop",
+          "id": "Docker.DockerDesktop",
+          "version": "4.54.0"
+        },
+        {
+          "name": "Git",
+          "id": "ARP\\Machine\\X64\\Git_is1",
+          "version": "2.52.0"
+        },
+        {
+          "name": "Obsidian",
+          "id": "Obsidian.Obsidian",
+          "version": "1.10.6"
+        },
+        {
+          "name": "Microsoft Visual Studio Installer",
+          "id": "ARP\\Machine\\X64\\{6F320B93-EE3C-4826-85Eâ€¦ 4.0.2166.47498",
+          "version": ""
+        },
+        {
+          "name": "Python Install Manager",
+          "id": "Python.PythonInstallManager",
+          "version": "25.1.240.0"
+        },
+        {
+          "name": "Microsoft ODBC Driver 18 for SQL Server",
+          "id": "Microsoft.msodbcsql.18",
+          "version": "18.5.1.1"
+        },
+        {
+          "name": "Brave",
+          "id": "Brave.Brave",
+          "version": "143.1.85.111"
+        },
+        {
+          "name": "Google Chrome",
+          "id": "Google.Chrome.EXE",
+          "version": "143.0.7499.41"
+        },
+        {
+          "name": "Microsoft Edge",
+          "id": "Microsoft.Edge",
+          "version": "142.0.3595.94"
+        },
+        {
+          "name": "Microsoft Edge Update",
+          "id": "ARP\\Machine\\X86\\Microsoft Edge Update",
+          "version": "1.3.211.7"
+        },
+        {
+          "name": "Microsoft Edge WebView2 Runtime",
+          "id": "Microsoft.EdgeWebView2Runtime",
+          "version": "142.0.3595.94"
+        },
+        {
+          "name": "SQL Server Management Studio 22",
+          "id": "ARP\\Machine\\X86\\a4c5466c",
+          "version": "22.0.0"
+        },
+        {
+          "name": "vs_CoreEditorFonts",
+          "id": "ARP\\Machine\\X86\\{1851460E-0E63-4117-B5Bâ€¦ 17.7.40001",
+          "version": ""
+        },
+        {
+          "name": "Tailscale",
+          "id": "Tailscale.Tailscale",
+          "version": "1.90.9"
+        },
+        {
+          "name": "Microsoft Visual C++ v14 Redistributablâ€¦ Microsoft.VCRedist.2015+.x86",
+          "id": "14.50.35710.0",
+          "version": "14.50.35719.0 winget"
+        },
+        {
+          "name": "Microsoft .NET SDK 10.0.100 (x64)",
+          "id": "Microsoft.DotNet.SDK.10",
+          "version": "10.0.100"
+        },
+        {
+          "name": "Python Launcher",
+          "id": "Python.Launcher",
+          "version": "> 3.13.5"
+        },
+        {
+          "name": "Microsoft Visual C++ v14 Redistributablâ€¦ Microsoft.VCRedist.2015+.x64",
+          "id": "14.50.35710.0",
+          "version": "14.50.35719.0 winget"
+        },
+        {
+          "name": "Claude",
+          "id": "Anthropic.Claude",
+          "version": "1.0.1405"
+        },
+        {
+          "name": "Microsoft OneDrive",
+          "id": "Microsoft.OneDrive",
+          "version": "25.209.1026.0002"
+        },
+        {
+          "name": "Python 3.14.1 (64-bit)",
+          "id": "Python.Python.3.14",
+          "version": "3.14.1"
+        },
+        {
+          "name": "Microsoft Visual Studio Code (User)",
+          "id": "Microsoft.VisualStudioCode",
+          "version": "1.106.3"
+        },
+        {
+          "name": "Bitwarden",
+          "id": "MSIX\\8bitSolutionsLLC.bitwardendesktop_â€¦ 2025.11.2.0",
+          "version": ""
+        },
+        {
+          "name": "Microsoft Clipchamp",
+          "id": "MSIX\\Clipchamp.Clipchamp_4.4.10420.0_x6â€¦ 4.4.10420.0",
+          "version": ""
+        },
+        {
+          "name": "AVC Encoder Video Extension",
+          "id": "MSIX\\Microsoft.AVCEncoderVideoExtensionâ€¦ 1.1.21.0",
+          "version": ""
+        },
+        {
+          "name": "News",
+          "id": "MSIX\\Microsoft.BingNews_4.55.62231.0_x6â€¦ 4.55.62231.0",
+          "version": ""
+        },
+        {
+          "name": "MSN Weather",
+          "id": "MSIX\\Microsoft.BingWeather_4.54.63029.0â€¦ 4.54.63029.0",
+          "version": ""
+        },
+        {
+          "name": "App Installer",
+          "id": "Microsoft.AppInstaller",
+          "version": "1.27.350.0"
+        },
+        {
+          "name": "Microsoft Edge Game Assist",
+          "id": "MSIX\\Microsoft.Edge.GameAssist_1.0.3456â€¦ 1.0.3456.0",
+          "version": ""
+        },
+        {
+          "name": "Xbox",
+          "id": "MSIX\\Microsoft.GamingApp_2512.1001.31.0â€¦ 2512.1001.31.0",
+          "version": ""
+        },
+        {
+          "name": "Get Help",
+          "id": "MSIX\\Microsoft.GetHelp_10.2409.32612.0_â€¦ 10.2409.32612.0",
+          "version": ""
+        },
+        {
+          "name": "HEIF Image Extension",
+          "id": "MSIX\\Microsoft.HEIFImageExtension_1.2.2â€¦ 1.2.23.0",
+          "version": ""
+        },
+        {
+          "name": "MPEG-2 Video Extension",
+          "id": "MSIX\\Microsoft.MPEG2VideoExtension_1.2.â€¦ 1.2.13.0",
+          "version": ""
+        },
+        {
+          "name": "Microsoft Edge",
+          "id": "MSIX\\Microsoft.MicrosoftEdge.Stable_142â€¦ 142.0.3595.94",
+          "version": ""
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "id": "MSIX\\Microsoft.MicrosoftOfficeHub_19.25â€¦ 19.2511.50071.0",
+          "version": ""
+        },
+        {
+          "name": "Solitaire & Casual Games",
+          "id": "MSIX\\Microsoft.MicrosoftSolitaireCollecâ€¦ 4.24.11040.0",
+          "version": ""
+        },
+        {
+          "name": "Microsoft Sticky Notes",
+          "id": "MSIX\\Microsoft.MicrosoftStickyNotes_6.1â€¦ 6.1.4.0",
+          "version": ""
+        },
+        {
+          "name": "OneDrive",
+          "id": "MSIX\\Microsoft.OneDriveSync_25209.1026.â€¦ 25209.1026.2.0",
+          "version": ""
+        },
+        {
+          "name": "Outlook for Windows",
+          "id": "MSIX\\Microsoft.OutlookForWindows_1.2025â€¦ 1.2025.818.302",
+          "version": ""
+        },
+        {
+          "name": "Paint",
+          "id": "MSIX\\Microsoft.Paint_11.2509.441.0_x64_â€¦ 11.2509.441.0",
+          "version": ""
+        },
+        {
+          "name": "Microsoft People",
+          "id": "MSIX\\Microsoft.People_10.2202.100.0_x64â€¦ 10.2202.100.0",
+          "version": ""
+        },
+        {
+          "name": "Power Automate",
+          "id": "MSIX\\Microsoft.PowerAutomateDesktop_11.â€¦ 11.2511.161.0",
+          "version": ""
+        },
+        {
+          "name": "Raw Image Extension",
+          "id": "MSIX\\Microsoft.RawImageExtension_2.5.7.â€¦ 2.5.7.0",
+          "version": ""
+        },
+        {
+          "name": "Snipping Tool",
+          "id": "MSIX\\Microsoft.ScreenSketch_11.2509.30.â€¦ 11.2509.30.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Security",
+          "id": "MSIX\\Microsoft.SecHealthUI_1000.29429.1â€¦ 1000.29429.1000â€¦",
+          "version": ""
+        },
+        {
+          "name": "Microsoft Engagement Framework",
+          "id": "MSIX\\Microsoft.Services.Store.Engagemenâ€¦ 10.0.23012.0",
+          "version": ""
+        },
+        {
+          "name": "Microsoft Engagement Framework",
+          "id": "MSIX\\Microsoft.Services.Store.Engagemenâ€¦ 10.0.23012.0",
+          "version": ""
+        },
+        {
+          "name": "Start Experiences App",
+          "id": "MSIX\\Microsoft.StartExperiencesApp_1.15â€¦ 1.151.0.0",
+          "version": ""
+        },
+        {
+          "name": "Store Experience Host",
+          "id": "MSIX\\Microsoft.StorePurchaseApp_22509.1â€¦ 22509.1401.1.0",
+          "version": ""
+        },
+        {
+          "name": "Microsoft To Do",
+          "id": "MSIX\\Microsoft.Todos_2.148.3611.0_x64__â€¦ 2.148.3611.0",
+          "version": ""
+        },
+        {
+          "name": "Microsoft.UI.Xaml.2.7",
+          "id": "Microsoft.UI.Xaml.2.7",
+          "version": "7.2409.9001.0"
+        },
+        {
+          "name": "Microsoft.UI.Xaml.2.7",
+          "id": "Microsoft.UI.Xaml.2.7",
+          "version": "7.2409.9001.0"
+        },
+        {
+          "name": "Microsoft.UI.Xaml.2.8",
+          "id": "Microsoft.UI.Xaml.2.8",
+          "version": "8.2501.31001.0"
+        },
+        {
+          "name": "Microsoft.UI.Xaml.2.8",
+          "id": "Microsoft.UI.Xaml.2.8",
+          "version": "8.2501.31001.0"
+        },
+        {
+          "name": "Microsoft Visual C++ 2015 UWP Desktop Râ€¦ Microsoft.VCLibs.Desktop.14",
+          "id": "14.0.33728.0",
+          "version": "winget"
+        },
+        {
+          "name": "Microsoft Visual C++ 2015 UWP Desktop Râ€¦ Microsoft.VCLibs.Desktop.14",
+          "id": "14.0.33728.0",
+          "version": "winget"
+        },
+        {
+          "name": "VP9 Video Extensions",
+          "id": "MSIX\\Microsoft.VP9VideoExtensions_1.2.1â€¦ 1.2.12.0",
+          "version": ""
+        },
+        {
+          "name": "Web Media Extensions",
+          "id": "MSIX\\Microsoft.WebMediaExtensions_1.2.1â€¦ 1.2.14.0",
+          "version": ""
+        },
+        {
+          "name": "WebP Image Extension",
+          "id": "MSIX\\Microsoft.WebpImageExtension_1.2.1â€¦ 1.2.10.0",
+          "version": ""
+        },
+        {
+          "name": "Widgets Platform Runtime",
+          "id": "MSIX\\Microsoft.WidgetsPlatformRuntime_1â€¦ 1.6.14.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Advanced Settings",
+          "id": "MSIX\\Microsoft.Windows.DevHome_0.2101.8â€¦ 0.2101.858.0",
+          "version": ""
+        },
+        {
+          "name": "Microsoft Photos",
+          "id": "MSIX\\Microsoft.Windows.Photos_2025.1111â€¦ 2025.11110.1800â€¦",
+          "version": ""
+        },
+        {
+          "name": "Windows Clock",
+          "id": "MSIX\\Microsoft.WindowsAlarms_11.2510.4.â€¦ 11.2510.4.0",
+          "version": ""
+        },
+        {
+          "name": "WindowsAppRuntime.1.5",
+          "id": "MSIX\\Microsoft.WindowsAppRuntime.1.5_50â€¦ 5001.373.1736.0",
+          "version": ""
+        },
+        {
+          "name": "WindowsAppRuntime.1.5",
+          "id": "MSIX\\Microsoft.WindowsAppRuntime.1.5_50â€¦ 5001.373.1736.0",
+          "version": ""
+        },
+        {
+          "name": "WindowsAppRuntime.1.6",
+          "id": "MSIX\\Microsoft.WindowsAppRuntime.1.6_60â€¦ 6000.519.329.0",
+          "version": ""
+        },
+        {
+          "name": "WindowsAppRuntime.1.6",
+          "id": "MSIX\\Microsoft.WindowsAppRuntime.1.6_60â€¦ 6000.519.329.0",
+          "version": ""
+        },
+        {
+          "name": "WindowsAppRuntime.1.7",
+          "id": "MSIX\\Microsoft.WindowsAppRuntime.1.7_70â€¦ 7000.676.1651.0",
+          "version": ""
+        },
+        {
+          "name": "WindowsAppRuntime.1.7",
+          "id": "MSIX\\Microsoft.WindowsAppRuntime.1.7_70â€¦ 7000.676.1651.0",
+          "version": ""
+        },
+        {
+          "name": "WindowsAppRuntime.1.8",
+          "id": "MSIX\\Microsoft.WindowsAppRuntime.1.8_80â€¦ 8000.675.1142.0",
+          "version": ""
+        },
+        {
+          "name": "WindowsAppRuntime.1.8",
+          "id": "MSIX\\Microsoft.WindowsAppRuntime.1.8_80â€¦ 8000.675.1142.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Calculator",
+          "id": "MSIX\\Microsoft.WindowsCalculator_11.250â€¦ 11.2508.1.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Camera",
+          "id": "MSIX\\Microsoft.WindowsCamera_2025.2510.â€¦ 2025.2510.2.0",
+          "version": ""
+        },
+        {
+          "name": "Feedback Hub",
+          "id": "MSIX\\Microsoft.WindowsFeedbackHub_1.251â€¦ 1.2510.14102.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Maps",
+          "id": "MSIX\\Microsoft.WindowsMaps_1.0.65.0_x64â€¦ 1.0.65.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Notepad",
+          "id": "MSIX\\Microsoft.WindowsNotepad_11.2508.3â€¦ 11.2508.38.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Sound Recorder",
+          "id": "MSIX\\Microsoft.WindowsSoundRecorder_11.â€¦ 11.2510.0.0",
+          "version": ""
+        },
+        {
+          "name": "Microsoft Store",
+          "id": "MSIX\\Microsoft.WindowsStore_22510.1401.â€¦ 22510.1401.4.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Terminal",
+          "id": "Microsoft.WindowsTerminal",
+          "version": "1.23.12811.0"
+        },
+        {
+          "name": "Xbox TCUI",
+          "id": "MSIX\\Microsoft.Xbox.TCUI_1.24.10001.0_xâ€¦ 1.24.10001.0",
+          "version": ""
+        },
+        {
+          "name": "Xbox Game Bar Plugin",
+          "id": "MSIX\\Microsoft.XboxGameOverlay_1.54.400â€¦ 1.54.4001.0",
+          "version": ""
+        },
+        {
+          "name": "Game Bar",
+          "id": "MSIX\\Microsoft.XboxGamingOverlay_7.325.â€¦ 7.325.11061.0",
+          "version": ""
+        },
+        {
+          "name": "Xbox Identity Provider",
+          "id": "MSIX\\Microsoft.XboxIdentityProvider_12.â€¦ 12.130.16001.0",
+          "version": ""
+        },
+        {
+          "name": "Game Speech Window",
+          "id": "MSIX\\Microsoft.XboxSpeechToTextOverlay_â€¦ 1.97.17002.0",
+          "version": ""
+        },
+        {
+          "name": "Phone Link",
+          "id": "MSIX\\Microsoft.YourPhone_1.25102.64.0_xâ€¦ 1.25102.64.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Media Player",
+          "id": "MSIX\\Microsoft.ZuneMusic_11.2510.7.0_x6â€¦ 11.2510.7.0",
+          "version": ""
+        },
+        {
+          "name": "Movies & TV",
+          "id": "MSIX\\Microsoft.ZuneVideo_10.25101.10031â€¦ 10.25101.10031.0",
+          "version": ""
+        },
+        {
+          "name": "Quick Assist",
+          "id": "MSIX\\MicrosoftCorporationII.QuickAssistâ€¦ 2.0.36.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Subsystem for Linux",
+          "id": "MSIX\\MicrosoftCorporationII.WindowsSubsâ€¦ 2.6.2.0",
+          "version": ""
+        },
+        {
+          "name": "Windows Web Experience Pack",
+          "id": "MSIX\\MicrosoftWindows.Client.WebExperieâ€¦ 525.31002.150.0",
+          "version": ""
+        },
+        {
+          "name": "Cross Device Experience Host",
+          "id": "MSIX\\MicrosoftWindows.CrossDevice_1.251â€¦ 1.25102.46.0",
+          "version": ""
+        },
+        {
+          "name": "Realtek Audio Control",
+          "id": "MSIX\\RealtekSemiconductorCorp.RealtekAuâ€¦ 1.1.137.0",
+          "version": ""
+        },
+        {
+          "name": "Mail and Calendar",
+          "id": "MSIX\\microsoft.windowscommunicationsappâ€¦ 16005.14326.223â€¦",
+          "version": ""
+        }
+      ]
+    },
+    "pip": {
+      "count": 17,
+      "packages": [
+        {
+          "name": "certifi",
+          "version": "2025.11.12"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.4.4"
+        },
+        {
+          "name": "click",
+          "version": "8.3.1"
+        },
+        {
+          "name": "colorama",
+          "version": "0.4.6"
+        },
+        {
+          "name": "idna",
+          "version": "3.11"
+        },
+        {
+          "name": "Jinja2",
+          "version": "3.1.6"
+        },
+        {
+          "name": "markdown-it-py",
+          "version": "4.0.0"
+        },
+        {
+          "name": "MarkupSafe",
+          "version": "3.0.3"
+        },
+        {
+          "name": "mdurl",
+          "version": "0.1.2"
+        },
+        {
+          "name": "packaging",
+          "version": "25.0"
+        },
+        {
+          "name": "pip",
+          "version": "25.3"
+        },
+        {
+          "name": "Pygments",
+          "version": "2.19.2"
+        },
+        {
+          "name": "PyYAML",
+          "version": "6.0.3"
+        },
+        {
+          "name": "requests",
+          "version": "2.32.5"
+        },
+        {
+          "name": "rich",
+          "version": "14.2.0"
+        },
+        {
+          "name": "sysmap",
+          "version": "0.1.0"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.5.0"
+        }
+      ]
+    }
+  }
+}
