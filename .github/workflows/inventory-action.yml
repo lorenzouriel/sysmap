@@ -1,0 +1,48 @@
+name: System Inventory Generator
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday at midnight
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  generate-inventory:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Install SysMap
+      run: |
+        python -m pip install --upgrade pip
+        pip install -e .
+
+    - name: Generate Inventory
+      run: |
+        sysmap scan --format markdown --output SYSTEM_SUMMARY_${{ matrix.os }}.md
+        sysmap scan --format json --output system_inventory_${{ matrix.os }}.json
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: inventory-${{ matrix.os }}
+        path: |
+          SYSTEM_SUMMARY_${{ matrix.os }}.md
+          system_inventory_${{ matrix.os }}.json
+
+    - name: Commit and Push (Ubuntu only)
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add SYSTEM_SUMMARY_${{ matrix.os }}.md system_inventory_${{ matrix.os }}.json || true
+        git commit -m "chore: update system inventory [skip ci]" || true
+        git push || true
