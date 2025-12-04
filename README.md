@@ -7,7 +7,6 @@
 [![PyPI version](https://badge.fury.io/py/sysmap.svg)](https://badge.fury.io/py/sysmap)
 [![Python Versions](https://img.shields.io/pypi/pyversions/sysmap.svg)](https://pypi.org/project/sysmap/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://github.com/lorenzouriel/sysmap/workflows/Tests/badge.svg)](https://github.com/lorenzouriel/sysmap/actions)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 [Features](#-features) • [Installation](#-installation) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Contributing](#-contributing)
