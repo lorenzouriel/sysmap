@@ -5,7 +5,6 @@
 **A comprehensive system inventory tool for tracking installed software, versions, and configurations across multiple platforms**
 
 [![PyPI version](https://badge.fury.io/py/sysmap.svg)](https://badge.fury.io/py/sysmap)
-[![Python Versions](https://img.shields.io/pypi/pyversions/sysmap.svg)](https://pypi.org/project/sysmap/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
@@ -167,42 +166,6 @@ scanners:
   pip: true
   npm: false  # Disable npm scanning
   brew: false  # Disable Homebrew
-```
-
-### GitHub Action Integration
-Add to `.github/workflows/inventory.yml`:
-```yaml
-name: System Inventory
-
-on:
-  schedule:
-    - cron: '0 0 * * 0'  # Weekly
-  workflow_dispatch:
-
-jobs:
-  inventory:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install SysMap
-        run: pip install sysmap
-
-      - name: Generate Inventory
-        run: sysmap scan --format markdown
-
-      - name: Commit Report
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add SYSTEM_SUMMARY.md
-          git commit -m "Update system inventory [skip ci]"
-          git push
 ```
 
 ---
